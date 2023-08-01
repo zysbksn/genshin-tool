@@ -55,7 +55,7 @@ with open('image.jpg', 'rb') as f:
 
 def main():
     #从鉴权人证获取access_token
-    url = "https://aip.baidubce.com/rest/2.0/ocr/v1/accurate_basic?access_token=24.3f706a72816331197ecd7cf6be756bfa.2592000.1693467775.282335-37015144"
+    url = "https://aip.baidubce.com/rest/2.0/ocr/v1/accurate_basic?access_token="
     img=get_file_content_as_base64('resized_image.jpg')
     payload = {"image":img}
     headers = {
